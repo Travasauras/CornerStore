@@ -1,1 +1,5 @@
 # CornerStore
+
+For the final project in my introductory c++ course, I was tasked with writing a program that could read in a text file, organize the text file by mapping out the contents of it then return the organized count of items that appear in the txt file. When testing the program, I felt it needed a something to handle if the user used upper or lower cased letters in any part of the word since the return of a specific search in the list was dependent on the case it is written in the txt file, so I added a function that would allow the user to write their search in any case form they wanted while still returning the item searched for as long as it was spelled the same.  It also needed a way to validate user input for the program menu, which I included.  The program used OOP with functions for pulling from the list defined in the "GroceryItem" class then called in the "main" file. 
+
+In the end the program worked as requested with a few extra functions that weren't requested but made the program handle potential operator errors. 
